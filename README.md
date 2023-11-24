@@ -12,16 +12,16 @@ MMBurgers is a Java-based simulation project that models a restaurant's order pr
 
 ## Simulation Features
 1. Customer Arrival and Ordering:
-> Customers arrive with unique IDs, arrival times, and the number of burgers they want to order.\
+> Customers arrive with unique IDs, arrival times, and the number of burgers they want to order.
 > The arrival time of each customer is tracked, and the order is placed in the billing queue.
-2. Billing Queue Management:\
+2. Billing Queue Management:
 > The billing queues are managed using a max heap to efficiently allocate customers to the available queues based on their size.
-3. Griddle Utilization:\
-> The griddle has a maximum capacity (M) for cooking burgers simultaneously.\
+3. Griddle Utilization:
+> The griddle has a maximum capacity (M) for cooking burgers simultaneously.
 > Events are triggered for placing orders on the griddle, and customers are processed based on griddle availability.
-4. Event-driven Simulation:\
+4. Event-driven Simulation:
 > The simulation progresses through discrete events, such as customer arrivals, order placement, and griddle usage, advancing time as needed.
-5. Efficient Data Structures:\
+5. Efficient Data Structures:
 > Various min and max heap data structures are employed for efficient event management, billing queue allocation, and griddle space utilization.
 ## Usage
 1. Setting Parameters:\
